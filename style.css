@@ -45,12 +45,17 @@
 
 /* Second section start here */
 .secondsection{
-    height: 200%;
-    padding: 30px;
+    /* height: 200%; */
+    padding: 30px 25px;
 }
 
 .secondsection h1{
     padding-bottom: 35px;
+}
+
+.secondsection span{
+    background-color: #0089f4;
+    padding: 3px;
 }
 
 .secondsection-block{
@@ -58,13 +63,19 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    position: relative;
 }
 .block-01{
-    /* border: 1px solid tomato; */
+    border: 1px dotted black;
     width: 30%;
     background-color: #0089f4;
     padding: 25px 20px;
     border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.secondsection-block .block-01:hover{
+    background-color: #a5cef5;
 }
 
 .block-01 p{
@@ -74,8 +85,13 @@
     /* font-size: 30px; */
 }
 
+.let-talk{
+    font-size: 28px;
+}
+
 .web-design{
-    font-size: 10px;
+    font-size: 15px;
+    color: grey;
 }
 .content a{
     /* border: 1px solid black; */
